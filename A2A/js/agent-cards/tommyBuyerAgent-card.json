@@ -1,0 +1,97 @@
+{
+  "name": "Tommy Buyer Agent",
+  "description": "AI agent responsible for submitting, negotiating, and tracking purchase orders for TOMMY HILFIGER EUROPE B.V.",
+  "url": "http://localhost:9090",
+  "provider": {
+    "organization": "TOMMY HILFIGER EUROPE B.V.",
+    "url": "https://tommyhilfiger.com"
+  },
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": true,
+    "stateTransitionHistory": true
+  },
+  "skills": [
+    {
+      "id": "procurement_management",
+      "name": "Procurement Management",
+      "description": "Oversees the complete procurement lifecycle — from identifying verified seller agents and evaluating proposals to finalizing trade agreements. Ensures that all counterparties are GLEIF-verified and contract terms align with buyer requirements.",
+      "tags": [
+        "buyer",
+        "procurement",
+        "trade",
+        "negotiation",
+        "gleif",
+        "compliance"
+      ]
+    },
+    {
+      "id": "purchase_order",
+      "name": "Purchase Order Management",
+      "description": "Manages procurement negotiations, evaluates offers, and finalizes trade requirements.",
+      "tags": [
+        "buyer",
+        "procurement",
+        "trade"
+      ]
+    },
+    {
+      "id": "Invoice_Approval",
+      "name": "Invoice Approval",
+      "description": "Manages procurement negotiations, evaluates offers, and finalizes trade requirements.",
+      "tags": [
+        "buyer",
+        "procurement",
+        "trade"
+      ]
+    },
+    {
+      "id": "Payment_Authentication",
+      "name": "Payment Authentication",
+      "description": "Manages procurement negotiations, evaluates offers, and finalizes trade requirements.",
+      "tags": [
+        "buyer",
+        "procurement",
+        "trade"
+      ]
+    }
+  ],
+  "extensions": {
+    "gleifIdentity": {
+      "lei": "54930012QJWZMYHNJW95",
+      "legalEntityName": "TOMMY HILFIGER EUROPE B.V.",
+      "registryName": "TOMMY_REGISTRY",
+      "qvi": "EA-CmOv0NcFk4Ell3cptTWsrL2Iqlqksel8naUknAGKn",
+      "officialRole": "ChiefProcurementOfficer",
+      "engagementRole": "Buyer Agent"
+    },
+    "vLEImetadata": {
+      "delegatorAID": "EMB4Is-Wn8Ogy11eMoQSXrDBL4wbeTdTrsb9-gkE-zoy",
+      "delegateeAID": "EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI",
+      "delegatorSAID": "EBPjs3YSHVNP4w3u71tpPYWv8NVRGDQwvbqz7h492gdH",
+      "delegateeSAID": "EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI",
+      "delegatorOOBI": "http://keria:3902/oobi/EMB4Is-Wn8Ogy11eMoQSXrDBL4wbeTdTrsb9-gkE-zoy/agent/EFq2WGxhC_eGRXxebA-OVX2P66ip-8Tkmnn0s_Ravw38",
+      "delegateeOOBI": "http://keria:3902/oobi/EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI/agent/EGn67n6g_GkZ6TOteUsCRDxIE4WG3CsWflL6cA0qswQG",
+      "leAID": "EC0Bzn8ogARS5PWL-FovntIUI-rvgDF1OD2Da3jYnYMP",
+      "leOOBI": "http://keria:3902/oobi/EC0Bzn8ogARS5PWL-FovntIUI-rvgDF1OD2Da3jYnYMP/agent/EL1RxlMi5HSwEBjI-E4N01HOLnE4h6NXNECSm4VQmvmr",
+      "verificationPath": [
+        "GLEIF_ROOT → QVI",
+        "QVI → TOMMY HILFIGER EUROPE B.V. → Chief Procurement Officer → tommyBuyerAgent"
+      ],
+      "status": "verified",
+      "verificationEndpoint": "http://vlei-verification:9723/verify/agent-delegation",
+      "timestamp": "2026-05-14T13:14:58.801Z",
+      "agentName": "tommyBuyerAgent",
+      "oorHolderName": "Tommy_Chief_Procurement_Officer"
+    },
+    "gleifVerification": {
+      "gleifVerificationEndpoint": "https://gleif.org/api/v1/lei/54930012QJWZMYHNJW95"
+    },
+    "keriIdentifiers": {
+      "agentAID": "EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI",
+      "oorHolderAID": "EMB4Is-Wn8Ogy11eMoQSXrDBL4wbeTdTrsb9-gkE-zoy",
+      "legalEntityAID": "EC0Bzn8ogARS5PWL-FovntIUI-rvgDF1OD2Da3jYnYMP",
+      "qviAID": "EA-CmOv0NcFk4Ell3cptTWsrL2Iqlqksel8naUknAGKn"
+    }
+  }
+}
