@@ -61,26 +61,26 @@
       "lei": "54930012QJWZMYHNJW95",
       "legalEntityName": "TOMMY HILFIGER EUROPE B.V.",
       "registryName": "TOMMY_REGISTRY",
-      "qvi": "EA-CmOv0NcFk4Ell3cptTWsrL2Iqlqksel8naUknAGKn",
+      "qvi": "ENkSU8oay8nAtxQdVl6OqgrDytH6IUQIgmNYbdfmIsEh",
       "officialRole": "ChiefProcurementOfficer",
       "engagementRole": "Buyer Agent"
     },
     "vLEImetadata": {
-      "delegatorAID": "EMB4Is-Wn8Ogy11eMoQSXrDBL4wbeTdTrsb9-gkE-zoy",
-      "delegateeAID": "EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI",
-      "delegatorSAID": "EBPjs3YSHVNP4w3u71tpPYWv8NVRGDQwvbqz7h492gdH",
-      "delegateeSAID": "EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI",
-      "delegatorOOBI": "http://keria:3902/oobi/EMB4Is-Wn8Ogy11eMoQSXrDBL4wbeTdTrsb9-gkE-zoy/agent/EFq2WGxhC_eGRXxebA-OVX2P66ip-8Tkmnn0s_Ravw38",
-      "delegateeOOBI": "http://keria:3902/oobi/EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI/agent/EGn67n6g_GkZ6TOteUsCRDxIE4WG3CsWflL6cA0qswQG",
-      "leAID": "EC0Bzn8ogARS5PWL-FovntIUI-rvgDF1OD2Da3jYnYMP",
-      "leOOBI": "http://keria:3902/oobi/EC0Bzn8ogARS5PWL-FovntIUI-rvgDF1OD2Da3jYnYMP/agent/EL1RxlMi5HSwEBjI-E4N01HOLnE4h6NXNECSm4VQmvmr",
+      "delegatorAID": "ENwng5eRDiE9zzhF_xtQ20V_Jhdvy2JRsJ66mVhjyJB6",
+      "delegateeAID": "ECUxA94ZM7z4ba6zWb8TWSAkkYmhqaVnHnIeHUdScXBj",
+      "delegatorSAID": "EPr58WFzf0kZv3QPJCo-sjVhnxTavHR3ftRY19-Be2DX",
+      "delegateeSAID": "ECUxA94ZM7z4ba6zWb8TWSAkkYmhqaVnHnIeHUdScXBj",
+      "delegatorOOBI": "http://keria:3902/oobi/ENwng5eRDiE9zzhF_xtQ20V_Jhdvy2JRsJ66mVhjyJB6/agent/ENwylpNE4nUqfJdKUcJbOO9y_DZRu0R-mQnT402ZU_TA",
+      "delegateeOOBI": "http://keria:3902/oobi/ECUxA94ZM7z4ba6zWb8TWSAkkYmhqaVnHnIeHUdScXBj/agent/EJrD9GfQ66QT5LfN8muw4V6IgM2i5aeJeEDRnDlrAf3D",
+      "leAID": "EBIbiU1IqHImahjp3865b9_DpttbEXLcXOkhrxu2x3EE",
+      "leOOBI": "http://keria:3902/oobi/EBIbiU1IqHImahjp3865b9_DpttbEXLcXOkhrxu2x3EE/agent/EPAobJM-g0ZAR2B1pZUXi7NKBU-zefPJVoyoMvcl5S22",
       "verificationPath": [
         "GLEIF_ROOT → QVI",
         "QVI → TOMMY HILFIGER EUROPE B.V. → Chief Procurement Officer → tommyBuyerAgent"
       ],
       "status": "verified",
       "verificationEndpoint": "http://vlei-verification:9723/verify/agent-delegation",
-      "timestamp": "2026-05-14T13:14:58.801Z",
+      "timestamp": "2026-05-14T17:53:54.746Z",
       "agentName": "tommyBuyerAgent",
       "oorHolderName": "Tommy_Chief_Procurement_Officer"
     },
@@ -88,10 +88,10 @@
       "gleifVerificationEndpoint": "https://gleif.org/api/v1/lei/54930012QJWZMYHNJW95"
     },
     "keriIdentifiers": {
-      "agentAID": "EBXzfE78LACMS-DVzZ5trqcTYURxmLEDZBAdD2W-h3nI",
-      "oorHolderAID": "EMB4Is-Wn8Ogy11eMoQSXrDBL4wbeTdTrsb9-gkE-zoy",
-      "legalEntityAID": "EC0Bzn8ogARS5PWL-FovntIUI-rvgDF1OD2Da3jYnYMP",
-      "qviAID": "EA-CmOv0NcFk4Ell3cptTWsrL2Iqlqksel8naUknAGKn"
+      "agentAID": "ECUxA94ZM7z4ba6zWb8TWSAkkYmhqaVnHnIeHUdScXBj",
+      "oorHolderAID": "ENwng5eRDiE9zzhF_xtQ20V_Jhdvy2JRsJ66mVhjyJB6",
+      "legalEntityAID": "EBIbiU1IqHImahjp3865b9_DpttbEXLcXOkhrxu2x3EE",
+      "qviAID": "ENkSU8oay8nAtxQdVl6OqgrDytH6IUQIgmNYbdfmIsEh"
     }
   }
 }
